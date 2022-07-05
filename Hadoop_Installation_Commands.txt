@@ -1,4 +1,9 @@
-
+#JAVA_HOME
+export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+#Apache Pig Environment Variables
+export PIG_HOME=/home/hiberstack/pig/pig-0.17.0
+export PATH=$PATH:/home/hiberstack/pig/pig-0.17.0/bin
+export PIG_CLASSPATH=$HADOOP_HOME/conf
 
 Downloading Hadoop (Please note link is updated to new version of hadoop here on 6th May 2022)
 ===============================
